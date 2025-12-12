@@ -1,0 +1,16 @@
+{
+  "test1_startup_connection": {
+    "recommendation": "1-3 days",
+    "confidence": 95,
+    "q_value": 10.83,
+    "reasoning": "**When to Follow Up:** You should follow up on your startup job application 1-2 days after submitting it. Therefore, if you applied today, aim to send your follow-up message by Day 1 or Day 2.\n\n**Why This Timing Works:** Startups often have fluid hiring processes and quick decision-making. Following up within this timeframe shows your enthusiasm for the role and keeps you top-of-mind for the hiring team, especially since you have a mutual connection who can advocate for you.\n\n**What to Do If You've Already Waited Too Long:** If it's been more than 3 days since your application, you should still reach out but acknowledge the delay. You can say something like, \u201cI apologize for not reaching out sooner; I\u2019ve been eager to connect regarding my application.\u201d\n\n**Key Tips for This Specific Situation:**\n1. **Subject Line:** Use a compelling subject line that mentions your mutual connection, such as \u201cConnection with [Name] - Application Follow-up.\u201d\n2. **Warm Tone:** Start with your excitement about the role and the company, which will resonate well in the startup environment.\n3. **Mention Your Connection:** Briefly highlight your mutual connection and how they inspired your interest in the position.\n4. **Keep It Brief:** Be concise, as startup founders are typically very busy. Aim for a message that is to the point while still expressing your genuine enthusiasm.\n\nBy following these steps, you can effectively enhance your chances of receiving a response and demonstrating your interest in the position.",
+    "should_act_now": false
+  },
+  "test2_enterprise_cold": {
+    "recommendation": "5-7 days",
+    "confidence": 100.0,
+    "q_value": 7.89,
+    "reasoning": "You should follow up on your enterprise job application on **day 7**, which is two days from now. This timing strikes a balance between allowing sufficient time for initial screenings and demonstrating your interest in the position. Enterprise companies typically take a few days to review applications, and waiting a week shows respect for their process while still keeping your candidacy fresh in their minds.\n\nIf you haven't heard back by then, you can follow up again after an additional **3 days** (day 10). This staggered approach helps you remain proactive without appearing overly aggressive. \n\nIf you've already waited too long and it\u2019s past the optimal follow-up window, you should still reach out. Acknowledge the delay in your message and express your continued interest in the role. This shows resilience and commitment, which can be attractive qualities to potential employers.\n\nKey tips for this situation include:  \n\n1. **Address your follow-up to the hiring manager** rather than HR to personalize your approach.\n2. **Reference the job posting** and include the requisition number to demonstrate your attention to detail and knowledge of their hiring process.\n3. **Keep your message concise, professional, and enthusiastic**, reiterating why you would be a valuable addition to their team.\n\nBy following these strategies, you can effectively navigate the application process and enhance your chances of getting noticed.",
+    "should_act_now": true
+  }
+}

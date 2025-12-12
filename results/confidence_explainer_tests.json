@@ -1,0 +1,29 @@
+{
+  "test1_timing": {
+    "metrics": {
+      "wait_time": "1-3 days",
+      "q_value": 10.83,
+      "confidence": 95.0,
+      "company_type": "startup"
+    },
+    "explanation": "Our analysis of 500 job applications found that following up within 1 to 3 days after applying produces the best results. This timing has proven most effective because it shows your enthusiasm without being too pushy, and it allows you to stand out in the minds of busy hiring managers. We're confident in this recommendation, as it has consistently led to positive outcomes in similar situations."
+  },
+  "test2_casual_style": {
+    "metrics": {
+      "style": "casual",
+      "success_rate": 0.733,
+      "confidence": 73.3,
+      "company_type": "startup"
+    },
+    "explanation": "Based on analyzing hundreds of applications, we found that a casual message style resonates well with startups, making it more likely to get responses. This approach feels friendly and approachable, which is effective in connecting with people in a dynamic, innovative environment. We're quite confident in this recommendation, as our findings show that this style has worked successfully in a majority of similar cases."
+  },
+  "test3_formal_style": {
+    "metrics": {
+      "style": "formal",
+      "success_rate": 0.417,
+      "confidence": 41.7,
+      "company_type": "enterprise"
+    },
+    "explanation": "Based on analyzing hundreds of applications, we found that a formal message style tends to get the best response for enterprise companies. This approach is effective because it conveys professionalism and seriousness, which resonates well with larger organizations. We're fairly confident in this recommendation, as our analysis shows that this style has worked well in the past for similar situations."
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "startup_with_connection": {
+    "variant_1_rl_only": {
+      "variant": "RL-only",
+      "timing": "1-3 days",
+      "style": "connection_focused",
+      "response": "Follow up in 1-3 days using connection_focused style.",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling"
+      ],
+      "latency": 2.8371810913085938e-05
+    },
+    "variant_2_rl_rag": {
+      "variant": "RL + RAG",
+      "timing": "1-3 days",
+      "style": "connection_focused",
+      "response": "RL recommendation: Follow up in 1-3 days using connection_focused style.\n\nKnowledge base guidance: When following up with a startup company, it's crucial to act quickly but also strategically. Here are the specific guidelines:\n\n1. **If you have a connection**: Follow up within **24-48 hours** after...",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling",
+        "RAG"
+      ],
+      "latency": 5.333649158477783
+    },
+    "variant_3_rl_prompts": {
+      "variant": "RL + Prompts",
+      "timing": "1-3 days",
+      "style": "connection_focused",
+      "response": "For optimal follow-up with startup companies, aim to reach out 1-3 days after your initial contact. This timing has a high Q-value of 10.83, indicating it's the most effective window. When you follow up, adopt a connection-focused style, as this approach has a success rate of 70.0%. Personalize your message to strengthen relationships, showing genuine interest in their vision and needs. Use this follow-up to not only reaffirm your interest but also to offer any insights or support that may be beneficial to them, fostering a collaborative atmosphere.",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling",
+        "GPT-4o-mini"
+      ],
+      "latency": 2.616306781768799
+    },
+    "variant_4_full": {
+      "variant": "Full System",
+      "timing": "1-3 days",
+      "style": "connection_focused",
+      "response": "To maximize your chances of success when applying to startups, follow these actionable steps based on data analysis and best practices. \n\n**Timing**: If you have a connection, follow up within **24-48 hours** of your application. This demonstrates enthusiasm and keeps you in the forefront of their minds. If you applied without a connection, wait **2-3 days** before following up. This timing aligns with the optimal Q-value of 10.83 from data analysis, indicating that prompt follow-ups are effective.\n\n**Messaging Style**: Use a **connection-focused** approach, which has a 70% success rate. Share a relevant personal anecdote or mutual connection to build rapport. \n\n**Tips**: In your follow-up, express genuine interest in the company and its mission, and briefly highlight how your skills align with their needs. This tailored approach shows you are proactive and dedicated, making you a more appealing candidate in the fast-paced startup environment.",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling",
+        "RAG",
+        "GPT-4o-mini"
+      ],
+      "latency": 13.172613859176636
+    }
+  },
+  "startup_cold": {
+    "variant_1_rl_only": {
+      "variant": "RL-only",
+      "timing": "1-3 days",
+      "style": "casual",
+      "response": "Follow up in 1-3 days using casual style.",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling"
+      ],
+      "latency": 4.601478576660156e-05
+    },
+    "variant_2_rl_rag": {
+      "variant": "RL + RAG",
+      "timing": "1-3 days",
+      "style": "casual",
+      "response": "RL recommendation: Follow up in 1-3 days using casual style.\n\nKnowledge base guidance: When following up with a startup company, you should adhere to these timing strategies based on your application context:\n\n1. **If you have a connection**: Follow up within **24-48 hours** after apply...",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling",
+        "RAG"
+      ],
+      "latency": 5.298624038696289
+    },
+    "variant_3_rl_prompts": {
+      "variant": "RL + Prompts",
+      "timing": "1-3 days",
+      "style": "casual",
+      "response": "For optimal follow-up with startup companies, aim to reach out within 1-3 days after your initial contact. This timeframe has a high Q-value of 10.83, indicating effectiveness. When you follow up, adopt a casual style, as this approach has a success rate of 73.3%. Keep your message friendly and approachable, which will help foster a positive connection. In your follow-up, express your continued interest and inquire about any updates or next steps. This combination of timing and style will enhance your chances of a successful interaction.",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling",
+        "GPT-4o-mini"
+      ],
+      "latency": 2.0065319538116455
+    },
+    "variant_4_full": {
+      "variant": "Full System",
+      "timing": "1-3 days",
+      "style": "casual",
+      "response": "When following up on job applications, timing and communication style are critical for success. Based on data analysis from 500 applications, the optimal follow-up timing is 1-3 days after applying, particularly if you\u2019re applying cold. This window allows hiring teams to process applications while keeping your candidacy fresh in their minds.\n\nFor optimal results, aim for a casual communication style, as it has demonstrated a success rate of 73.3%. A casual tone fosters a sense of approachability and relatability, which is essential in startup environments that often prioritize cultural fit.\n\n**Actionable Steps:**\n1. **If you have a connection**: Follow up within 24-48 hours after applying. Reference your connection to personalize your message.\n2. **If applying cold**: Wait 2-3 days before reaching out. Keep your message friendly and concise, expressing enthusiasm for the role and inquiring about the hiring timeline.\n\nThis combination of timely follow-up and casual style maximizes your chances of making a positive impression.",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling",
+        "RAG",
+        "GPT-4o-mini"
+      ],
+      "latency": 13.034419059753418
+    }
+  },
+  "enterprise_cold": {
+    "variant_1_rl_only": {
+      "variant": "RL-only",
+      "timing": "5-7 days",
+      "style": "connection_focused",
+      "response": "Follow up in 5-7 days using connection_focused style.",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling"
+      ],
+      "latency": 3.719329833984375e-05
+    },
+    "variant_2_rl_rag": {
+      "variant": "RL + RAG",
+      "timing": "5-7 days",
+      "style": "connection_focused",
+      "response": "RL recommendation: Follow up in 5-7 days using connection_focused style.\n\nKnowledge base guidance: When following up with an enterprise company after submitting your application, it's essential to adhere to their typical hiring processes. Here\u2019s a specific and actionable timeline for you:\n\n1. **Ini...",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling",
+        "RAG"
+      ],
+      "latency": 6.860776901245117
+    },
+    "variant_3_rl_prompts": {
+      "variant": "RL + Prompts",
+      "timing": "5-7 days",
+      "style": "connection_focused",
+      "response": "For optimal follow-up with enterprise companies, aim to reach out 5-7 days after your initial interaction. This timing has a high Q-value of 7.89, indicating its effectiveness in maintaining engagement. When following up, adopt a connection-focused style, as this approach has a success rate of 55.0%. In your message, emphasize shared interests or past discussions to strengthen the relationship. Keep your tone warm and personable, encouraging dialogue rather than just seeking a response. This combination of timing and style will enhance your chances of a positive outcome.",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling",
+        "GPT-4o-mini"
+      ],
+      "latency": 2.0181970596313477
+    },
+    "variant_4_full": {
+      "variant": "Full System",
+      "timing": "5-7 days",
+      "style": "connection_focused",
+      "response": "To maximize your chances of success when applying to enterprise companies, follow these actionable steps:\n\n1. **Timing:** Wait 5-7 days after submitting your application to follow up. This period aligns with optimal timing found in data analysis, allowing recruiters enough time to review applications without feeling rushed. This demonstrates patience and professionalism.\n\n2. **Follow-Up Style:** Use a **connection-focused** approach in your communication, as it has a 55% success rate. Tailor your message to establish rapport by mentioning shared interests or connections, and express genuine enthusiasm for the company and role.\n\n3. **Content Tips:** In your follow-up email, include a brief recap of your application, highlight your relevant skills, and inquire about the status of your application. Keep it concise and polite to maintain a positive impression.\n\nBy strategically timing your follow-up and focusing on building connections, you enhance your visibility and demonstrate your commitment to the position.",
+      "components": [
+        "Q-Learning",
+        "Thompson Sampling",
+        "RAG",
+        "GPT-4o-mini"
+      ],
+      "latency": 11.469271898269653
+    }
+  }
+}

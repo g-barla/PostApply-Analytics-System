@@ -1,0 +1,26 @@
+{
+  "test1_poor_startup": {
+    "original": "Hi,\n    \nI applied to your company last week and wanted to follow up. I'm really interested in the position and think I'd be a great fit. Can you let me know the status of my application?\n\nThanks,\nJohn",
+    "score": 5,
+    "feedback": [
+      "The subject line is missing, which is crucial for clarity.",
+      "The opening is too brief and lacks personalization.",
+      "There is no mention of enthusiasm for the company or role.",
+      "What's working well: The message is concise and to the point."
+    ],
+    "improved": "Subject: Following Up on My Application for the Data Analyst Role\n\nHi [Recipient's Name],\n\nI hope this message finds you well! I wanted to follow up on my application for the Data Analyst role I submitted last week. I'm really excited about the opportunity to join [Company Name], especially after learning about [specific company initiative or product]. \n\nI believe my experience in data analytics and my passion for [relevant skills or industry] would allow me to contribute immediately. Are you available for a brief chat next week to discuss my application? \n\nThank you for considering my application. I look forward to hearing from you soon!\n\nBest,\nJohn [Your LinkedIn profile or contact information]",
+    "recommended_style": "casual"
+  },
+  "test2_good_enterprise": {
+    "original": "Subject: Following Up on Data Analyst Application \u2013 Referred by Sarah Chen\n\nHi Ms. Johnson,\n\nSarah Chen from your Analytics team suggested I reach out regarding the Senior Data Analyst position. I applied last week and wanted to express my continued interest.\n\nMy experience in building predictive models that increased customer retention by 23% aligns closely with the role's requirements. I'd welcome the opportunity to discuss how I could contribute to your team's success.\n\nWould you be available for a brief conversation this week?\n\nBest regards,\nJane Smith",
+    "score": 7,
+    "feedback": [
+      "The subject line is clear but could be more specific by including a job requisition number if available.",
+      "The opening statement could be slightly warmer and more engaging to set a positive tone.",
+      "While the value proposition is strong, it could benefit from a brief mention of how your skills align with the company\u2019s goals or projects.",
+      "The email maintains a professional tone and is concise, which is commendable."
+    ],
+    "improved": "Subject: Follow-Up on Senior Data Analyst Application (Req #45678)\n\nDear Ms. Johnson,\n\nI hope this message finds you well. I'm following up regarding my application for the Senior Data Analyst position I submitted last week, as referred by Sarah Chen from your Analytics team. I remain very enthusiastic about the opportunity to contribute to [Company Name].\n\nMy experience in building predictive models that increased customer retention by 23% aligns well with the goals of your team. I would love to discuss how I can contribute to your success.\n\nWould you be available for a brief conversation this week?\n\nThank you for your time, and I look forward to hearing from you soon.\n\nBest regards,\nJane Smith\n[Your Phone Number]\n[Your LinkedIn Profile or Email Address]",
+    "recommended_style": "connection_focused"
+  }
+}

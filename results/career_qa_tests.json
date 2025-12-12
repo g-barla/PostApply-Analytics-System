@@ -1,0 +1,47 @@
+{
+  "question_1": {
+    "question": "How do I prepare for a data analyst interview?",
+    "answer": "Preparing for a data analyst interview involves several actionable steps across different stages of the interview process. Here's a structured approach to help you get ready:\n\n### 1. Understand the Interview Process\nFamiliarize yourself with the typical stages of a data analyst interview. These usua...",
+    "sources": [
+      "06_interview_prep.txt",
+      "06_interview_prep.txt",
+      "06_interview_prep.txt"
+    ]
+  },
+  "question_2": {
+    "question": "What should I include in my follow-up email?",
+    "answer": "When crafting your follow-up email, it's essential to keep it brief, specific, and personalized. Here\u2019s a structured approach based on best practices:\n\n1. **Subject Line**: Keep it clear and relevant. For example, \u201cFollow-Up on [Position Title] Application\u201d or \u201cThank You for the Interview\u201d.\n\n2. **Gr...",
+    "sources": [
+      "05_follow_up_best_practices.txt",
+      "06_interview_prep.txt",
+      "05_follow_up_best_practices.txt"
+    ]
+  },
+  "question_3": {
+    "question": "How can I find a hiring manager's email?",
+    "answer": "To find a hiring manager's email, follow these specific and actionable steps:\n\n1. **LinkedIn Profile Check:**\n   - Visit the hiring manager's LinkedIn profile. Check the \"Contact Info\" section, as many professionals list their email addresses there.\n\n2. **LinkedIn Email Finding Feature:**\n   - If yo...",
+    "sources": [
+      "03_company_research.txt",
+      "04_contact_strategies.txt",
+      "04_contact_strategies.txt"
+    ]
+  },
+  "question_4": {
+    "question": "What are some SQL questions I should prepare for?",
+    "answer": "Here are some specific SQL questions and topics you should prepare for, based on key concepts and common interview practices:\n\n1. **JOIN Types**:\n   - Explain the differences between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN. \n   - Provide examples of when to use each type of JOIN.\n\n2. ...",
+    "sources": [
+      "06_interview_prep.txt",
+      "06_interview_prep.txt",
+      "06_interview_prep.txt"
+    ]
+  },
+  "question_5": {
+    "question": "How do I research company culture?",
+    "answer": "Researching company culture is an essential step in your job search, as it helps you determine if a company is a good fit for you and allows you to tailor your application and interview approach. Here\u2019s a specific and actionable plan to assess company culture effectively:\n\n### 1. **Start with Linked...",
+    "sources": [
+      "03_company_research.txt",
+      "03_company_research.txt",
+      "03_company_research.txt"
+    ]
+  }
+}

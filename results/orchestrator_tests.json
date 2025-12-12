@@ -1,0 +1,22 @@
+{
+  "test_1_timing_advice_for_startup": {
+    "query_type": "timing_advice",
+    "chain_used": "Timing Advisor + Confidence Explainer",
+    "summary": "Processed successfully with Timing Advisor + Confidence Explainer"
+  },
+  "test_2_message_review": {
+    "query_type": "message_review",
+    "chain_used": "Message Coach + Confidence Explainer",
+    "summary": "Processed successfully with Message Coach + Confidence Explainer"
+  },
+  "test_3_full_strategy": {
+    "query_type": "full_strategy",
+    "chain_used": "Strategy Synthesizer (RL + RAG + Multi-step)",
+    "summary": "Processed successfully with Strategy Synthesizer (RL + RAG + Multi-step)"
+  },
+  "test_4_career_question": {
+    "query_type": "career_question",
+    "chain_used": "Career Q&A (Pure RAG)",
+    "summary": "Processed successfully with Career Q&A (Pure RAG)"
+  }
+}
