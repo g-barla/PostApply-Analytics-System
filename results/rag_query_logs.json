@@ -1,0 +1,17 @@
+[
+  {
+    "question": "When should I follow up with a startup?",
+    "rl_context": null,
+    "num_sources": 3
+  },
+  {
+    "question": "Why should I wait 3 days for this startup application?",
+    "rl_context": {
+      "wait_days": 3,
+      "style": "casual",
+      "confidence": 85,
+      "q_value": 8.42
+    },
+    "num_sources": 3
+  }
+]

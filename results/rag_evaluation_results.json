@@ -1,0 +1,303 @@
+{
+  "query_results": [
+    {
+      "query": "When should I follow up with startups vs enterprise companies?",
+      "difficulty": "easy",
+      "expected_categories": [
+        "01",
+        "timing"
+      ],
+      "retrieved_categories": [
+        "01",
+        "01",
+        "01"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "relevance": 3,
+      "completeness": 2,
+      "accuracy": 3,
+      "answer_length": 1469
+    },
+    {
+      "query": "How do I write a good follow-up email?",
+      "difficulty": "easy",
+      "expected_categories": [
+        "02",
+        "05",
+        "message",
+        "follow"
+      ],
+      "retrieved_categories": [
+        "05",
+        "05",
+        "06"
+      ],
+      "precision": 0.5,
+      "recall": 0.25,
+      "relevance": 3,
+      "completeness": 3,
+      "accuracy": 3,
+      "answer_length": 2789
+    },
+    {
+      "query": "What if the hiring manager doesn't respond after 2 weeks?",
+      "difficulty": "medium",
+      "expected_categories": [
+        "05",
+        "follow"
+      ],
+      "retrieved_categories": [
+        "04",
+        "01",
+        "05"
+      ],
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "relevance": 2,
+      "completeness": 4,
+      "accuracy": 3,
+      "answer_length": 1882
+    },
+    {
+      "query": "Should I mention my connection in the first email?",
+      "difficulty": "medium",
+      "expected_categories": [
+        "02",
+        "04",
+        "message",
+        "contact"
+      ],
+      "retrieved_categories": [
+        "01",
+        "04",
+        "02"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "relevance": 4,
+      "completeness": 3,
+      "accuracy": 3,
+      "answer_length": 901
+    },
+    {
+      "query": "How to research company culture before applying?",
+      "difficulty": "easy",
+      "expected_categories": [
+        "03",
+        "company"
+      ],
+      "retrieved_categories": [
+        "03",
+        "03",
+        "03"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "relevance": 3,
+      "completeness": 2,
+      "accuracy": 3,
+      "answer_length": 2908
+    },
+    {
+      "query": "What's the best way to find hiring manager contact info?",
+      "difficulty": "easy",
+      "expected_categories": [
+        "04",
+        "contact"
+      ],
+      "retrieved_categories": [
+        "03",
+        "04",
+        "04"
+      ],
+      "precision": 0.5,
+      "recall": 0.5,
+      "relevance": 4,
+      "completeness": 3,
+      "accuracy": 4,
+      "answer_length": 1924
+    },
+    {
+      "query": "How long should my follow-up email be?",
+      "difficulty": "easy",
+      "expected_categories": [
+        "05",
+        "follow"
+      ],
+      "retrieved_categories": [
+        "05",
+        "05",
+        "05"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "relevance": 4,
+      "completeness": 2,
+      "accuracy": 3,
+      "answer_length": 682
+    },
+    {
+      "query": "What are common data analyst interview questions?",
+      "difficulty": "easy",
+      "expected_categories": [
+        "06",
+        "interview"
+      ],
+      "retrieved_categories": [
+        "06",
+        "06",
+        "06"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "relevance": 3,
+      "completeness": 2,
+      "accuracy": 4,
+      "answer_length": 2643
+    },
+    {
+      "query": "What did the RL system discover about startup timing?",
+      "difficulty": "medium",
+      "expected_categories": [
+        "07",
+        "rl"
+      ],
+      "retrieved_categories": [
+        "07",
+        "07",
+        "07"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "relevance": 4,
+      "completeness": 3,
+      "accuracy": 3,
+      "answer_length": 661
+    },
+    {
+      "query": "Should I use formal or casual tone for a tech startup?",
+      "difficulty": "medium",
+      "expected_categories": [
+        "02",
+        "message"
+      ],
+      "retrieved_categories": [
+        "07",
+        "05",
+        "05"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "relevance": 3,
+      "completeness": 2,
+      "accuracy": 3,
+      "answer_length": 1033
+    },
+    {
+      "query": "How many times should I follow up before giving up?",
+      "difficulty": "medium",
+      "expected_categories": [
+        "05",
+        "follow"
+      ],
+      "retrieved_categories": [
+        "07",
+        "04",
+        "01"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "relevance": 3,
+      "completeness": 3,
+      "accuracy": 4,
+      "answer_length": 1220
+    },
+    {
+      "query": "What's the optimal Q-value for enterprise follow-ups?",
+      "difficulty": "hard",
+      "expected_categories": [
+        "07",
+        "rl"
+      ],
+      "retrieved_categories": [
+        "07",
+        "07",
+        "07"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "relevance": 4,
+      "completeness": 4,
+      "accuracy": 4,
+      "answer_length": 282
+    },
+    {
+      "query": "How to prepare for SQL technical interviews?",
+      "difficulty": "easy",
+      "expected_categories": [
+        "06",
+        "interview"
+      ],
+      "retrieved_categories": [
+        "06",
+        "06",
+        "06"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "relevance": 3,
+      "completeness": 2,
+      "accuracy": 3,
+      "answer_length": 3122
+    },
+    {
+      "query": "What message style works best with recruiters?",
+      "difficulty": "medium",
+      "expected_categories": [
+        "02",
+        "07",
+        "message"
+      ],
+      "retrieved_categories": [
+        "02",
+        "02",
+        "04"
+      ],
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "relevance": 4,
+      "completeness": 4,
+      "accuracy": 3,
+      "answer_length": 1557
+    },
+    {
+      "query": "How does Thompson Sampling choose message styles?",
+      "difficulty": "hard",
+      "expected_categories": [
+        "07",
+        "rl"
+      ],
+      "retrieved_categories": [
+        "07",
+        "07",
+        "07"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "relevance": 2,
+      "completeness": 2,
+      "accuracy": 3,
+      "answer_length": 1811
+    }
+  ],
+  "summary": {
+    "total_queries": 15,
+    "avg_precision": 0.7,
+    "avg_recall": 0.40555555555555556,
+    "avg_relevance": 3.2666666666666666,
+    "avg_completeness": 2.7333333333333334,
+    "avg_accuracy": 3.2666666666666666,
+    "overall_score": 3.0888888888888886
+  }
+}

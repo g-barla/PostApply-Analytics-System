@@ -1,0 +1,429 @@
+nano 06_interview_prep.txt
+```
+
+**When nano opens, COPY-PASTE THIS ENTIRE TEXT:**
+```
+# Interview Preparation for Data Analyst and Business Intelligence Roles
+
+## Understanding the DA/BI Interview Process
+
+Data Analyst and Business Intelligence interviews typically include 4-5 stages, each testing different competencies.
+
+### Stage 1: Phone Screen with Recruiter (30 minutes)
+Focus: Basic qualifications, communication skills, cultural fit
+
+What they assess:
+- Can you articulate your background clearly?
+- Are you genuinely interested in the company?
+- Do your salary expectations align?
+- Are you professional and pleasant to talk with?
+
+How to prepare:
+- Have your "tell me about yourself" story ready (2 minutes)
+- Research the company thoroughly
+- Prepare 3-4 questions about the role and company
+- Know your salary range but be flexible
+- Have specific examples of your analytical work ready
+
+### Stage 2: Technical Screen (45-60 minutes)
+Focus: SQL skills, basic statistics, analytical thinking
+
+Common formats:
+- Live SQL coding (most common)
+- Take-home SQL assignment
+- Statistics and probability questions
+- Case study discussion
+
+What they assess:
+- Can you write correct SQL queries?
+- Do you understand basic statistics?
+- Can you think through analytical problems?
+- How do you approach unfamiliar problems?
+
+How to prepare:
+- Practice SQL on LeetCode, HackerRank, or SQLZoo
+- Review JOIN types, window functions, aggregations
+- Brush up on basic statistics (mean, median, distributions)
+- Practice explaining your thought process out loud
+
+### Stage 3: Case Study or Take-Home Assignment (2-4 hours)
+Focus: End-to-end analytical problem solving
+
+Common formats:
+- Dataset with business questions to answer
+- Dashboard creation in Tableau or PowerBI
+- Presentation of findings
+- Written analysis report
+
+What they assess:
+- Can you clean and explore data independently?
+- Do you ask the right questions?
+- Are your visualizations clear and insightful?
+- Can you communicate findings to non-technical audiences?
+
+How to prepare:
+- Practice with public datasets (Kaggle, data.gov)
+- Build sample dashboards beforehand
+- Practice presenting technical findings simply
+- Have a structured approach ready (understand → explore → analyze → communicate)
+
+### Stage 4: Onsite/Panel Interviews (3-5 hours)
+Focus: Deep technical skills, business acumen, team fit
+
+Typical interview breakdown:
+- Technical deep-dive (1 hour): Advanced SQL, statistics, problem-solving
+- Stakeholder scenario (1 hour): Communication, business understanding
+- Behavioral interview (1 hour): Past experiences, teamwork, conflict resolution
+- Hiring manager conversation (1 hour): Strategic thinking, role fit
+- Team meet and greet (30-60 minutes): Cultural fit, team dynamics
+
+What they assess:
+- Technical expertise at the level required
+- Ability to work with business stakeholders
+- How you handle ambiguity and challenges
+- Cultural fit with team and company
+
+How to prepare:
+- Review all technical concepts comprehensively
+- Prepare STAR stories for behavioral questions
+- Practice whiteboard problem-solving
+- Research the team's current projects
+- Prepare thoughtful questions for each interviewer
+
+### Stage 5: Final Conversation or Offer Discussion
+Focus: Mutual fit assessment, logistics, compensation
+
+What happens:
+- Final check-in with hiring manager or senior leader
+- Discussion of start date, logistics
+- Compensation negotiation
+- Address any remaining concerns
+
+## Technical Question Categories
+
+### SQL Questions (Most Common)
+
+Difficulty progression in interviews:
+
+Basic (Phone screen level):
+- SELECT with WHERE clauses
+- Simple JOINs (INNER, LEFT)
+- Basic aggregations (COUNT, SUM, AVG)
+- GROUP BY with HAVING
+
+Example: "Write a query to find the top 3 products by total sales."
+
+Intermediate (Technical screen level):
+- Multiple JOINs
+- Subqueries and CTEs
+- Window functions (ROW_NUMBER, RANK, LAG/LEAD)
+- Date manipulation
+
+Example: "Find customers who made purchases in consecutive months."
+
+Advanced (Onsite level):
+- Complex window functions
+- Self-joins
+- Performance optimization
+- Handling edge cases
+
+Example: "Calculate month-over-month growth rate for each product category, handling cases where previous month had zero sales."
+
+Key SQL concepts to master:
+- JOIN types and when to use each
+- Window functions vs GROUP BY (when to use which)
+- CTEs for readability and complex queries
+- Handling NULL values properly
+- CASE statements for conditional logic
+- Date functions and time series analysis
+
+Practice resources:
+- LeetCode SQL problems (easy to medium)
+- HackerRank SQL challenges
+- SQLZoo interactive tutorials
+- Mode Analytics SQL tutorial
+- Company-specific practice (Google "company name SQL interview")
+
+### Statistics and Probability Questions
+
+Fundamental concepts tested:
+
+Descriptive statistics:
+- Mean vs median vs mode (when to use each)
+- Standard deviation and variance
+- Percentiles and quartiles
+- Distribution shapes (normal, skewed, bimodal)
+
+Example question: "Why might median be better than mean for analyzing house prices?"
+
+Probability basics:
+- Independent vs dependent events
+- Conditional probability
+- Bayes' theorem applications
+- Expected value calculations
+
+Example question: "If 5% of users click an ad, what's the probability at least 2 out of 10 users click?"
+
+Hypothesis testing:
+- Null and alternative hypotheses
+- P-values and significance levels
+- Type I and Type II errors
+- A/B testing fundamentals
+
+Example question: "How would you determine if a new feature increased user engagement?"
+
+Common pitfalls:
+- Confusing correlation with causation
+- Ignoring sample size in comparisons
+- Misinterpreting p-values
+- Not considering confounding variables
+
+### Analytics Problem-Solving Questions
+
+These test your analytical thinking process:
+
+Framework-based problems:
+"How would you measure the success of [product feature]?"
+
+Approach:
+1. Clarify the goal (what does success mean?)
+2. Identify key metrics (leading and lagging indicators)
+3. Consider measurement challenges
+4. Propose analysis approach
+5. Discuss limitations and alternative metrics
+
+Metric definition problems:
+"How would you define an 'active user' for a mobile app?"
+
+Approach:
+1. Understand business context
+2. Consider different definitions (daily, weekly, monthly)
+3. Discuss tradeoffs of each definition
+4. Recommend one with justification
+5. Explain how to track and measure it
+
+Root cause analysis:
+"User engagement dropped 20% last week. How would you investigate?"
+
+Approach:
+1. Verify the data (is the drop real?)
+2. Segment the analysis (which users, which features?)
+3. Check for external factors (seasonality, technical issues)
+4. Look at correlated metrics
+5. Form hypotheses and test them
+
+Data quality problems:
+"You notice missing data in an important field. What do you do?"
+
+Approach:
+1. Quantify the issue (how much data is missing?)
+2. Investigate the pattern (random or systematic?)
+3. Determine impact on analysis
+4. Propose solutions (imputation, exclude, investigate source)
+5. Communicate with stakeholders
+
+## Behavioral Interview Questions (STAR Method)
+
+The STAR method structures your answers effectively:
+- Situation: Set the context
+- Task: Explain your responsibility
+- Action: Describe what you did
+- Result: Share the outcome (with numbers if possible)
+
+Common behavioral questions for DA/BI roles:
+
+### Teamwork and Collaboration
+
+"Tell me about a time you worked with a difficult stakeholder."
+
+Strong answer structure:
+- Situation: Stakeholder kept changing requirements midway through project
+- Task: Deliver analysis while managing shifting expectations
+- Action: Set up weekly check-ins, documented requirements, managed scope creatively
+- Result: Delivered project on time, stakeholder satisfaction improved, process became standard
+
+"Describe a time you had to explain technical concepts to a non-technical audience."
+
+Strong answer structure:
+- Situation: Executive team needed to understand complex churn analysis
+- Task: Present findings in accessible way
+- Action: Used simple visualizations, analogies, avoided jargon, focused on business impact
+- Result: Executive buy-in, $500K budget approved for retention initiatives
+
+### Problem-Solving and Initiative
+
+"Tell me about a time you found an insight that wasn't expected."
+
+Strong answer structure:
+- Situation: Routine analysis of customer segments
+- Task: Understand purchasing patterns
+- Action: Dug deeper into unusual pattern, created new segmentation approach
+- Result: Discovered high-value micro-segment, led to targeted campaign, 15% revenue increase
+
+"Describe a time you had to learn a new tool or skill quickly."
+
+Strong answer structure:
+- Situation: Project required Tableau but I only knew PowerBI
+- Task: Get up to speed within one week
+- Action: Online courses, practice with sample data, got peer mentoring
+- Result: Delivered dashboard on time, became team's Tableau expert
+
+### Dealing with Ambiguity
+
+"Tell me about a time you had to make a decision with incomplete information."
+
+Strong answer structure:
+- Situation: Needed to recommend pricing strategy but data was limited
+- Task: Make best recommendation possible
+- Action: Triangulated multiple data sources, made assumptions explicit, quantified uncertainty
+- Result: Leadership appreciated transparency, decision was successful, approach became template
+
+"Describe a project that didn't go as planned."
+
+Strong answer structure:
+- Situation: Analysis showed results opposite to hypothesis
+- Task: Determine if analysis was correct or flawed
+- Action: Verified methodology, checked data quality, consulted with peers
+- Result: Analysis was correct, finding led to strategic pivot, saved company from bad investment
+
+### Time Management and Prioritization
+
+"How do you handle competing priorities?"
+
+Strong answer structure:
+- Situation: Three urgent requests from different stakeholders
+- Task: Deliver all while maintaining quality
+- Action: Assessed impact and urgency, negotiated timelines, communicated transparently
+- Result: All delivered successfully, stakeholders appreciated proactive communication
+
+## Questions to Ask Interviewers
+
+Asking insightful questions demonstrates interest and evaluates fit:
+
+### Questions for Hiring Manager
+
+About the role:
+- "What does success look like in this role in the first 6 months?"
+- "What are the biggest analytical challenges the team is currently facing?"
+- "How does this role interact with other teams (product, engineering, marketing)?"
+
+About the team:
+- "Can you tell me about the team structure and who I'd be working with most closely?"
+- "What tools and technologies does the analytics team primarily use?"
+- "How does the team balance ad-hoc requests with longer-term projects?"
+
+About growth:
+- "What opportunities are there for learning and professional development?"
+- "What does a typical career path look like for someone in this role?"
+- "How does the company support analysts in developing new skills?"
+
+### Questions for Team Members
+
+About day-to-day work:
+- "What does a typical day or week look like in this role?"
+- "What's the most interesting project you've worked on recently?"
+- "How much autonomy do analysts have in choosing their projects or approaches?"
+
+About culture:
+- "How would you describe the team culture?"
+- "What do you enjoy most about working here?"
+- "How does the team handle disagreements about analytical approaches?"
+
+About challenges:
+- "What's the most challenging aspect of working here?"
+- "What resources or support do you wish you had more of?"
+
+### Questions for Stakeholders
+
+About collaboration:
+- "How do you typically work with the analytics team?"
+- "What makes an analyst particularly effective in supporting your team?"
+- "Can you share an example of an analysis that really influenced a decision?"
+
+About expectations:
+- "What are you hoping the analytics team will help your team accomplish this year?"
+- "How do you prefer to receive analytical insights (dashboards, reports, presentations)?"
+
+### Questions to Avoid
+
+Don't ask:
+- Questions easily answered by website or public information
+- About salary/benefits in early interviews (wait for offer stage)
+- Negative questions about the company or team
+- Questions that sound like you haven't researched the company
+- "What does this company do?" (major red flag)
+
+## Pre-Interview Preparation Checklist
+
+### 48 Hours Before
+
+Technical review:
+- Practice 5-10 SQL problems
+- Review statistics concepts
+- Prepare case study framework
+- Test your tools (Tableau, Excel, etc.)
+
+Research:
+- Re-read job description carefully
+- Review company's recent news
+- Check interviewer LinkedIn profiles
+- Prepare company-specific questions
+
+Materials:
+- Print extra copies of resume
+- Prepare portfolio or work samples
+- Test video conference setup (if remote)
+- Prepare notebook and pen
+
+### Day Before
+
+Final preparation:
+- Review your STAR stories
+- Practice "tell me about yourself" out loud
+- Prepare 2-3 questions for each interviewer
+- Review your own resume for talking points
+- Get good sleep (8 hours)
+
+Logistics:
+- Confirm time and location/link
+- Plan your route (arrive 15 minutes early)
+- Choose professional outfit
+- Charge laptop and phone fully
+
+### Day Of
+
+Morning routine:
+- Light breakfast (avoid heavy meal)
+- Review key notes briefly (don't cram)
+- Arrive 15 minutes early (for in-person)
+- Log in 5 minutes early (for remote)
+
+During interview:
+- Take brief notes
+- Ask for clarification if needed
+- Think out loud for technical problems
+- Stay positive and engaged
+- Watch body language and energy
+
+## Post-Interview Follow-Up
+
+Within 24 hours:
+- Send thank-you email to each interviewer
+- Reference specific topics discussed
+- Reiterate your interest
+- Provide any promised follow-up information
+
+Thank you email template:
+
+"Hi [Name],
+
+Thank you for taking the time to speak with me yesterday about the Data Analyst position at [Company]. I enjoyed learning about [specific topic you discussed] and the team's approach to [specific project or challenge].
+
+Our conversation reinforced my interest in the role, particularly the opportunity to [specific aspect that excited you]. I'm confident my experience with [relevant skill] would allow me to contribute meaningfully to [specific team goal].
+
+Please let me know if I can provide any additional information. I look forward to hearing about next steps.
+
+Best regards,
+[Your Name]"
+
+The key to interview success is preparation, practice, and authentic engagement with the interviewers and the opportunity.

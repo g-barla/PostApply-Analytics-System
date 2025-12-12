@@ -1,0 +1,325 @@
+nano 03_company_research.txt
+```
+
+**When nano opens, COPY-PASTE THIS ENTIRE TEXT:**
+```
+# Company Research Strategies for Job Applications
+
+## Why Company Research Matters
+
+Generic applications get generic results. Demonstrating genuine knowledge about a company increases response rates by 40-50% because it signals authentic interest and cultural fit. Hiring managers can immediately tell the difference between someone who spent 5 minutes on the website versus someone who deeply understands the business.
+
+## Assessing Company Culture in 20 Minutes
+
+Company culture determines whether you'll thrive in the role and whether your follow-up message will resonate. Here's how to assess it quickly and accurately:
+
+### LinkedIn Analysis (5 minutes)
+
+Check the company's LinkedIn page:
+- Employee count and growth trajectory (rapid growth = startup chaos, stable = established processes)
+- Recent posts and tone (formal announcements vs casual updates)
+- Employee posts about the company (genuine enthusiasm vs corporate speak)
+- How employees describe themselves (titles, bios, profile pictures)
+
+Look at 5-10 employee profiles:
+- Do they have personalized headlines or generic titles?
+- Are profile pictures professional headshots or casual photos?
+- Do they share company content? (High sharing = strong culture)
+- How long do employees stay? (Check job durations)
+
+Red flags:
+- Mass exodus of employees in last 6 months
+- No one shares or engages with company content
+- All executive team, no mid-level employees visible
+- Employees don't list the company prominently
+
+Green flags:
+- Long employee tenures (3+ years average)
+- Active engagement on posts
+- Diverse employee backgrounds
+- Recent growth in headcount
+
+### Glassdoor Deep Dive (5 minutes)
+
+Don't just look at the overall rating. Read 10-15 recent reviews focusing on:
+
+Culture indicators:
+- Work-life balance mentions (frequent "long hours" = intense culture)
+- Management style descriptions (micromanagement vs autonomy)
+- Growth opportunities (learning environment vs stagnant)
+- Diversity and inclusion comments
+
+Filter reviews by:
+- Your target role or department
+- Recent reviews (last 6 months)
+- Current employees vs former employees
+
+What to look for:
+- Patterns in complaints (one-off issues vs systemic problems)
+- How company responds to negative reviews (defensive vs constructive)
+- Specific examples vs vague complaints
+- Balance of pros/cons (all positive = fake, all negative = disgruntled outliers)
+
+Red flags:
+- Recent negative reviews about leadership changes
+- Multiple mentions of "toxic culture" or "lack of direction"
+- High stress and burnout mentions
+- Poor communication from management
+
+Green flags:
+- Consistent praise for specific leaders
+- Mentions of learning and development
+- Positive team dynamics
+- Company responds professionally to feedback
+
+### Website and Product Research (5 minutes)
+
+Company website signals:
+- About page tone (corporate vs casual language)
+- Team page presence (photos, bios, personality)
+- Blog quality (thoughtful content vs SEO spam)
+- Career page messaging (what they emphasize)
+
+For product companies:
+- Use the actual product if possible (5-minute trial)
+- Read recent product announcements
+- Check user reviews (G2, Capterra, app stores)
+- Understand the value proposition clearly
+
+For service companies:
+- Review case studies and client testimonials
+- Understand their methodology or approach
+- Check which industries they serve
+- Review thought leadership content
+
+Questions to answer:
+- What problem does this company solve?
+- Who are their customers?
+- What makes them different from competitors?
+- What are they excited about right now?
+
+### Social Media Scan (3 minutes)
+
+Twitter/X (if company is active):
+- Tone of posts (professional vs casual)
+- Response to users (customer service quality)
+- What they choose to share (product updates, team wins, industry news)
+
+Instagram (for consumer companies):
+- Behind-the-scenes content quality
+- Employee features and culture posts
+- Visual brand identity
+
+LinkedIn content:
+- Frequency of posts (active vs dormant)
+- Employee spotlights and wins
+- Industry thought leadership
+
+### Recent News and Press (2 minutes)
+
+Google "[Company name] news" and check last 3 months:
+- Funding announcements (growth signal)
+- Product launches (innovation signal)
+- Awards or recognition (market validation)
+- Leadership changes (potential instability or growth)
+- Layoffs or restructuring (red flag)
+
+## Understanding Team Dynamics
+
+The team you'll join matters more than the overall company. Research the specific team:
+
+### Hiring Manager Research
+
+Find the hiring manager on LinkedIn:
+- Their background and career path
+- What they post about (values, priorities)
+- How they engage (comments, shares)
+- Previous companies and roles
+- Recommendations and endorsements
+
+Look for:
+- Technical depth (can they mentor you?)
+- Leadership style signals (team photos, celebrating others)
+- Communication style (formal vs approachable)
+- Recent activity (engaged vs absent)
+
+### Team Composition
+
+On LinkedIn, search "[Company name] data analyst" to find:
+- Team size (1 person vs 10-person team)
+- Backgrounds (diverse vs homogeneous)
+- Experience levels (all senior vs mixed)
+- Previous companies (where do they hire from?)
+
+This tells you:
+- Your potential growth path
+- Who you'd work with daily
+- What expertise exists on the team
+- Whether you'd be the only junior/senior person
+
+### Department Structure
+
+Understanding the org chart helps:
+- Is analytics a separate department or embedded in teams?
+- Who does the role report to? (Technical lead vs business stakeholder)
+- How many layers between you and executives?
+- Where does the team sit organizationally?
+
+## Competitive Landscape Research
+
+Understanding the company's market position:
+
+### Direct Competitors
+
+Identify 2-3 main competitors:
+- How does your target company differentiate?
+- Market share and positioning
+- Recent competitive moves
+- Employee movement between competitors
+
+Why this matters:
+- Shows you understand the industry
+- Helps you discuss strategic challenges intelligently
+- Demonstrates business acumen beyond technical skills
+
+### Market Trends
+
+Research the industry broadly:
+- Growing or declining market?
+- New technologies or regulations affecting it?
+- Recent major acquisitions or partnerships?
+- Emerging challenges or opportunities?
+
+## Financial Health Assessment
+
+For public companies:
+- Recent earnings reports (revenue growth, profitability)
+- Stock performance (trend, not day-to-day)
+- Analyst commentary and outlook
+
+For private companies:
+- Recent funding rounds and amounts
+- Investor quality (tier 1 VCs?)
+- Burn rate mentions in news
+- Runway and growth trajectory
+
+Red flags:
+- Declining revenue or multiple quarters of losses
+- Down rounds or declining valuation
+- Mass layoffs or hiring freezes
+- Negative press about financial troubles
+
+Green flags:
+- Consistent revenue growth
+- Path to profitability or already profitable
+- Strong investor backing
+- Expanding teams and markets
+
+## Practical Application: Talking Points for Your Message
+
+Convert research into message content:
+
+Generic message:
+"I'm interested in the Data Analyst role at your company."
+
+Research-informed message:
+"I'm particularly excited about [Company]'s recent expansion into [market segment]. Having worked with similar customer data at [previous role], I see strong alignment with the analytics challenges your team is likely facing around [specific challenge]."
+
+The research shows you:
+1. Actually read about the company (not just applying everywhere)
+2. Understand the business context (not just the technical role)
+3. Can connect your experience to their needs (clear value proposition)
+
+## Red Flags to Watch For
+
+During research, watch for deal-breakers:
+
+Culture red flags:
+- Consistent mentions of unrealistic expectations
+- High turnover in your target role
+- Negative patterns in Glassdoor reviews
+- Lack of diversity in leadership
+- Poor work-life balance mentions
+
+Business red flags:
+- Unclear value proposition or business model
+- Declining market or obsolete technology
+- Multiple recent pivots (lack of direction)
+- Lawsuit mentions or regulatory issues
+- Mass layoffs or hiring freezes
+
+Team red flags:
+- No clear manager or reporting structure
+- Team size of one (you'd be isolated)
+- All new team members (high churn)
+- No senior people to learn from
+
+## Green Flags to Get Excited About
+
+Positive signals worth highlighting in your message:
+
+Culture green flags:
+- Strong learning and development programs
+- Clear career progression paths
+- Diverse leadership team
+- Healthy work-life balance mentions
+- Active employee engagement
+
+Business green flags:
+- Clear market leader or innovator
+- Strong financial backing
+- Growing market opportunity
+- Recent product success or validation
+- Positive press and industry recognition
+
+Team green flags:
+- Mix of experience levels
+- Strong technical leadership
+- Recent team investments
+- Clear team mission and goals
+- Collaborative culture mentions
+
+## Research Shortcuts for Time-Pressed Candidates
+
+If you only have 10 minutes:
+
+Priority 1 (4 minutes): LinkedIn company page + 3 employee profiles
+Priority 2 (3 minutes): Glassdoor recent reviews
+Priority 3 (3 minutes): Company website About and Team pages
+
+This gives you enough to write a personalized, informed follow-up message.
+
+If you have 30 minutes:
+
+Add to the above:
+- Hiring manager deep dive (5 minutes)
+- Recent news and press (5 minutes)
+- Product trial or demo (10 minutes)
+- Competitor research (5 minutes)
+
+This gives you interview-ready knowledge.
+
+## Using Research in Follow-Up Messages
+
+Transform research into specific message elements:
+
+Mention specific products or features:
+"I was impressed by the recently launched [feature], particularly how it addresses [specific use case]."
+
+Reference company milestones:
+"Congratulations on the Series B announcement. The [investor] backing validates the market opportunity you're capturing."
+
+Connect to team or culture:
+"I noticed your team emphasizes [value from research], which aligns with my experience at [previous company] where we prioritized [similar value]."
+
+Demonstrate market understanding:
+"Given the current trends in [industry], I imagine your analytics team is focused on [likely challenge]. I have direct experience with [relevant skill]."
+
+## The Research-to-Message Framework
+
+1. Identify 2-3 specific facts about the company
+2. Connect each fact to your experience or interest
+3. Show how this creates mutual value
+4. Make it conversational, not like a research report
+
+Good research makes your message stand out while feeling natural and genuine.
