@@ -4,9 +4,9 @@ Tracker Agent: Logs applications and extracts data
 import sys
 sys.path.append('src')
 
-from tools.job_parser import JobDataExtractor
-from tools.contact_finder import ContactFinder
-from database import SessionLocal, Application, Contact
+from src.tools.job_parser import JobDataExtractor
+from src.tools.contact_finder import ContactFinder
+from src.database import SessionLocal, Application, Contact
 from datetime import datetime
 from typing import Dict, List, Optional
 

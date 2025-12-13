@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostApply Analytics - Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+        }
+        
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        
+        .metric-label {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .metric-delta {
+            font-size: 0.9em;
+            color: #28a745;
+            font-weight: 600;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        .card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .card ul {
+            list-style: none;
+            line-height: 1.8;
+        }
+        
+        .card li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .success-banner {
+            background: #d4edda;
+            border: 2px solid #28a745;
+            color: #155724;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .two-col {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 PostApply Analytics</h1>
+            <p>Hybrid RL + Gen AI System for Job Application Optimization</p>
+        </header>
+        
+        <div class="metrics">
+            <div class="metric-card">
+                <div class="metric-label">Response Rate Improvement</div>
+                <div class="metric-value">+20.6%</div>
+                <div class="metric-delta">32.0% → 38.6%</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-label">Interview Rate Improvement</div>
+                <div class="metric-value">+23.4%</div>
+                <div class="metric-delta">9.4% → 11.6%</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-label">Statistical Significance</div>
+                <div class="metric-value">p < 0.0001</div>
+                <div class="metric-delta">Highly Significant</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-label">Training Episodes</div>
+                <div class="metric-value">500</div>
+                <div class="metric-delta">Converged at ~300</div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>🧠 System Architecture</h2>
+                
+                <div class="two-col">
+                    <div class="card">
+                        <h3>Three-Layer Intelligence</h3>
+                        <ul>
+                            <li><strong>Reinforcement Learning</strong>
+                                <ul style="margin-left: 20px; margin-top: 5px;">
+                                    <li>Q-Learning for timing optimization</li>
+                                    <li>Thompson Sampling for style selection</li>
+                                    <li>Trained on 500 simulated applications</li>
+                                </ul>
+                            </li>
+                            <li><strong>RAG System</strong>
+                                <ul style="margin-left: 20px; margin-top: 5px;">
+                                    <li>7-document knowledge base (12,470 words)</li>
+                                    <li>215 semantic chunks</li>
+                                    <li>70% retrieval precision</li>
+                                </ul>
+                            </li>
+                            <li><strong>Prompt Engineering</strong>
+                                <ul style="margin-left: 20px; margin-top: 5px;">
+                                    <li>5 specialized chains</li>
+                                    <li>Intelligent orchestration</li>
+                                    <li>20x improvement over baseline</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li><strong>Timing Advisor</strong><br>
+                                Recommends optimal follow-up timing (95% confidence for startups)</li>
+                            <li><strong>Message Coach</strong><br>
+                                Scores messages 1-10, provides improvements</li>
+                            <li><strong>Strategy Synthesizer</strong><br>
+                                Complete action plans with timelines</li>
+                            <li><strong>Career Q&A</strong><br>
+                                Answers questions from knowledge base</li>
+                            <li><strong>Confidence Explainer</strong><br>
+                                Translates RL metrics to plain English</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📊 Ablation Study Results</h2>
+                
+                <div class="card">
+                    <h3>Component Contribution Analysis</h3>
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                        <thead>
+                            <tr style="background: #667eea; color: white;">
+                                <th style="padding: 12px; text-align: left;">Variant</th>
+                                <th style="padding: 12px; text-align: center;">Components</th>
+                                <th style="padding: 12px; text-align: center;">Avg Latency</th>
+                                <th style="padding: 12px; text-align: center;">Response Length</th>
+                                <th style="padding: 12px; text-align: center;">Quality</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background: #f8f9fa;">
+                                <td style="padding: 12px;"><strong>RL-only</strong></td>
+                                <td style="padding: 12px; text-align: center;">Q-Learning, Thompson</td>
+                                <td style="padding: 12px; text-align: center;">0.000s</td>
+                                <td style="padding: 12px; text-align: center;">49 chars</td>
+                                <td style="padding: 12px; text-align: center;">Baseline</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 12px;"><strong>RL + RAG</strong></td>
+                                <td style="padding: 12px; text-align: center;">+ RAG</td>
+                                <td style="padding: 12px; text-align: center;">5.831s</td>
+                                <td style="padding: 12px; text-align: center;">298 chars</td>
+                                <td style="padding: 12px; text-align: center;">+6x content</td>
+                            </tr>
+                            <tr style="background: #f8f9fa;">
+                                <td style="padding: 12px;"><strong>RL + Prompts</strong></td>
+                                <td style="padding: 12px; text-align: center;">+ GPT-4o-mini</td>
+                                <td style="padding: 12px; text-align: center;">2.214s</td>
+                                <td style="padding: 12px; text-align: center;">558 chars</td>
+                                <td style="padding: 12px; text-align: center;">+11x content</td>
+                            </tr>
+                            <tr style="background: #d4edda;">
+                                <td style="padding: 12px;"><strong>Full System</strong></td>
+                                <td style="padding: 12px; text-align: center;">+ RAG + GPT</td>
+                                <td style="padding: 12px; text-align: center;">12.559s</td>
+                                <td style="padding: 12px; text-align: center;">1007 chars</td>
+                                <td style="padding: 12px; text-align: center;"><strong>+20x content</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div style="margin-top: 20px; padding: 15px; background: #fff3cd; border-radius: 8px;">
+                        <strong>Key Finding:</strong> Each component adds measurable value. Full system produces 20x more comprehensive responses than RL-only baseline, with acceptable latency trade-offs.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🎯 Performance Highlights</h2>
+                
+                <div class="two-col">
+                    <div class="card">
+                        <h3>RL Performance</h3>
+                        <ul>
+                            <li>Q-Learning convergence at episode 300</li>
+                            <li>Startup optimal: 1-3 days (Q=10.83)</li>
+                            <li>Enterprise optimal: 5-7 days (Q=7.89)</li>
+                            <li>Casual style success: 73.3% (startups)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>RAG Performance</h3>
+                        <ul>
+                            <li>Retrieval precision: 70%</li>
+                            <li>Answer quality: 3.09/5</li>
+                            <li>Response length: 1000+ chars</li>
+                            <li>Cost per query: $0.0005</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="success-banner">
+                ✅ System operational and ready for demonstration!
+            </div>
+        </div>
+        
+        <footer>
+            <p><strong>PostApply Analytics</strong></p>
+            <p>Course: INFO 7375 - Prompt Engineering for Generative AI</p>
+            <p>Student: Geetika Barla | Northeastern University</p>
+            <p style="margin-top: 10px; opacity: 0.7;">© 2024 | GitHub: PostApply-Analytics-System</p>
+        </footer>
+    </div>
+</body>
+</html>

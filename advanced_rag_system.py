@@ -19,16 +19,21 @@ from langchain.docstore.document import Document
 class AdvancedRAGSystem:
     """RAG system with FAISS and direct OpenAI API calls"""
     
-    def __init__(self, knowledge_base_path="./knowledge_base", api_key=None):
+    def __init__(self, knowledge_base_path=None, api_key=None):
         """Initialize RAG system"""
         
         print("🚀 Initializing Advanced RAG System...")
         
         # Get OpenAI API key
-        self.api_key = api_key or os.environ.get('OPENAI_API_KEY')
+        self.api_key = api_key or openai.api_key = os.getenv("OPENAI_API_KEY")
         if not self.api_key:
             raise ValueError("OpenAI API key required")
-        
+        # If no path provided, use absolute path
+        if knowledge_base_path is None:
+           import os
+           script_dir = os.path.dirname(os.path.abspath(__file__))
+           knowledge_base_path = os.path.join(script_dir, "knowledge_base")
+        print(f"   Knowledge base path: {knowledge_base_path}")
         self.knowledge_base_path = knowledge_base_path
         
         # OpenAI API endpoints

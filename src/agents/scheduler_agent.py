@@ -4,8 +4,8 @@ Scheduler Agent: Recommends follow-up timing using Q-Learning
 import sys
 sys.path.append('src')
 
-from rl_algorithms.q_learning import QLearningScheduler
-from database import SessionLocal, Application, RLState
+from src.rl_algorithms.q_learning import QLearningScheduler
+from src.database import SessionLocal, Application, RLState
 from datetime import datetime
 from typing import Dict
 import json

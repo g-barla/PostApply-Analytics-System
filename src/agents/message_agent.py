@@ -4,9 +4,9 @@ Message Agent: Selects message style using Thompson Sampling
 import sys
 sys.path.append('src')
 
-from rl_algorithms.thompson_sampling import ThompsonSamplingMessenger
-from tools.message_scorer import MessageQualityScorer
-from database import SessionLocal, Application, Contact, RLState, Message
+from src.rl_algorithms.thompson_sampling import ThompsonSamplingMessenger
+from src.tools.message_scorer import MessageQualityScorer
+from src.database import SessionLocal, Application, Contact, RLState, Message
 from datetime import datetime
 from typing import Dict, Optional
 

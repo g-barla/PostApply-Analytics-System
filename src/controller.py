@@ -5,9 +5,9 @@ Orchestrates Tracker, Scheduler, and Message agents
 import sys
 sys.path.append('src')
 
-from agents.tracker_agent import TrackerAgent
-from agents.scheduler_agent import SchedulerAgent
-from agents.message_agent import MessageAgent
+from src.agents.tracker_agent import TrackerAgent
+from src.agents.scheduler_agent import SchedulerAgent
+from src.agents.message_agent import MessageAgent
 from database import SessionLocal, Application
 from datetime import datetime
 from typing import Dict, Optional, List
