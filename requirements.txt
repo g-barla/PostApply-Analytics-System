@@ -31,3 +31,20 @@ langchain-openai==0.0.5
 langchain-community==0.0.20
 chromadb==0.4.22
 tiktoken==0.5.2
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+
+
+# Web Scraping & Parsing
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=4.9.0
+
+# Jupyter & Visualization
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+matplotlib>=3.7.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
