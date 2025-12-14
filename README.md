@@ -240,38 +240,7 @@ p-value: < 0.0001
 
 ---
 
-## 🎓 Academic Information
 
-**Course**: INFO 7375 - Prompt Engineering for Generative AI  
-**Institution**: Northeastern University  
-**Student**: Geetika Barla ([Portfolio](https://geetikabarla.netlify.app/))  
-**Project Type**: Final Project (200 points, 20% of grade)  
-**Semester**: Fall 2024
-
-### Requirements Met
-
-**Required**: Implement ≥2 AI Technologies
-
-✅ **1. Prompt Engineering** (Primary Focus)
-- 5 specialized prompt chains with distinct purposes
-- Intelligent orchestrator for context-aware routing
-- Chain-of-thought reasoning for explainability
-- RL + RAG context synthesis
-- Ablation studies demonstrating 20x improvement
-
-✅ **2. RAG (Retrieval-Augmented Generation)**
-- 12,470-word curated knowledge base
-- Semantic chunking and vector embeddings
-- FAISS vector database for efficient retrieval
-- Evaluated on 15 test queries (70% precision)
-
-✅ **3. Bonus: Reinforcement Learning Integration**
-- Q-Learning for timing optimization (24 states, 6 actions)
-- Thompson Sampling for style selection (24 contexts, 3 arms)
-- Multi-agent coordination (Tracker, Scheduler, Message agents)
-- Trained on 500 simulated episodes with statistical validation
-
----
 
 ## 🔬 Technical Deep Dive
 
@@ -518,3 +487,4 @@ Full technical documentation available: `PostApplyAnalytics_Documentation.pdf`
 
 
 **📖 For detailed technical implementation, see the full documentation PDF.**
+
