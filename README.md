@@ -485,6 +485,3 @@ Full technical documentation available: `PostApplyAnalytics_Documentation.pdf`
 ---
 
 
-
-**📖 For detailed technical implementation, see the full documentation PDF.**
-
